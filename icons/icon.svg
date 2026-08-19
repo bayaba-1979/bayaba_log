@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c1412"/>
+      <stop offset="100%" stop-color="#0a0908"/>
+    </linearGradient>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3db8a8"/>
+      <stop offset="100%" stop-color="#f0c75e"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#3db8a8" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#3db8a8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <circle cx="256" cy="230" r="180" fill="url(#glow)"/>
+  <!-- civic seal rings -->
+  <circle cx="256" cy="248" r="178" fill="none" stroke="url(#g)" stroke-width="3" opacity="0.95"/>
+  <circle cx="256" cy="248" r="164" fill="none" stroke="#3db8a8" stroke-width="1" opacity="0.35"/>
+  <circle cx="256" cy="248" r="152" fill="none" stroke="#d4a84b" stroke-width="1" opacity="0.25" stroke-dasharray="4 6"/>
+  <!-- document plate -->
+  <rect x="168" y="168" width="176" height="200" rx="10" fill="#12100e" stroke="#3db8a8" stroke-width="2" opacity="0.95"/>
+  <line x1="196" y1="210" x2="316" y2="210" stroke="#3db8a8" stroke-width="3" opacity="0.55"/>
+  <line x1="196" y1="242" x2="300" y2="242" stroke="#7a7064" stroke-width="2.5" opacity="0.7"/>
+  <line x1="196" y1="274" x2="310" y2="274" stroke="#7a7064" stroke-width="2.5" opacity="0.55"/>
+  <line x1="196" y1="306" x2="280" y2="306" stroke="#7a7064" stroke-width="2.5" opacity="0.4"/>
+  <!-- monogram -->
+  <text x="256" y="360" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="72" font-weight="700" fill="url(#g)">L</text>
+  <text x="256" y="430" text-anchor="middle" font-family="system-ui,sans-serif" font-size="20" font-weight="600" fill="#7a7064" letter-spacing="6">行政日誌</text>
+</svg>

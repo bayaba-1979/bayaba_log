@@ -1,0 +1,49 @@
+{
+  "id": "/bayaba_log/",
+  "name": "바야바가 사는 법 — How Bayaba Lives",
+  "short_name": "바야바가 사는 법",
+  "description": "조현병과 함께 사는 누나 바야바의 인생 스토리. 신앙·음악·가족 돌봄 속에서 하루를 살아내는 방식을 기록.",
+  "lang": "ko",
+  "dir": "ltr",
+  "start_url": "/bayaba_log/",
+  "scope": "/bayaba_log/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui", "browser"],
+  "orientation": "any",
+  "background_color": "#0a0908",
+  "theme_color": "#0a0908",
+  "categories": ["lifestyle", "health", "family"],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/bayaba_log/icons/favicon-32.png",
+      "sizes": "32x32",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/bayaba_log/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/bayaba_log/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/bayaba_log/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/bayaba_log/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

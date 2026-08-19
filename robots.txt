@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bayaba-1979.github.io/bayaba_log/sitemap.xml
